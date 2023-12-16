@@ -1,0 +1,46 @@
+/* JoinedScreen.css */
+
+.environment-screen {
+    height: 100vh;
+    background-image: url('../public/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+  }
+  
+  
+  .lunch-people {
+    position: absolute;
+    bottom: 0; /* Position the top at the vertical center */
+    right: 50px; /* Position the left at the horizontal center */
+    background-image: url('../public/lunch_people.png');
+    background-size: 320px 330px; 
+    width: 320px; /* Adjust the size as needed */
+    height: 330px;
+  }
+  
+  .man {
+    position: absolute;
+    top: 50%; /* Position the top at the vertical center */
+    right: 50px; /* Position the left at the horizontal center */
+    background-size: 330px 320px; 
+    width: 330px; /* Adjust the size as needed */
+    height: 320px;
+  }
+
+  
+  .woman {
+    position: absolute;
+    bottom: 180px; /* Position the top at the vertical center */
+    right: 200px; /* Position the left at the horizontal center */
+    background-size: 170px 260px; 
+    width: 170px; /* Adjust the size as needed */
+    height: 260px;
+  }
